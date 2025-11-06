@@ -2,7 +2,7 @@ import React from 'react'
 
 function Home() {
   return (
-    <div className='bg-info'>
+    <div className='bg-mate text-center '>
       
       <p>THis home page</p>
 

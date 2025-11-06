@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App bg-mate text-purple">
+    <div className="App bg-mate text-purple mb-0 pb-0">
       <BrowserRouter>
         <Navbar />
 
