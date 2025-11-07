@@ -28,7 +28,7 @@ function Navbar() {
                </li>
 
                <li className='nav-item px-4'>
-                  <Link to="/" className='text-decoration-none text-purple fw-bold'>ABOUT</Link>
+                  <Link to="/About" className='text-decoration-none text-purple fw-bold'>ABOUT</Link>
                </li>
 
                <li className='nav-item px-4'>

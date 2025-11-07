@@ -5,6 +5,22 @@
   background-color: #0F0F0F;
 }
 
+.custom-btn {
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-btn:hover {
+  background-color: #ffd202;  /* لون ذهبي */
+  color: #000 !important;     /* النص أسود */
+  transform: scale(1.05);     /* تكبير خفيف */
+  box-shadow: 0 0 10px rgba(255, 210, 2, 0.6);
+}
+
+
+.custom-btn a:hover {
+  color: #000 !important;
+}
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;
