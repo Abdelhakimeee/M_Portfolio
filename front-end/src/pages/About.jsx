@@ -7,14 +7,14 @@ function About() {
 
     <div className='d-flex justify-content-evenly  align-items-start mt-5' >
       <img src='/homeimg.jpg' alt="home img"  // warning in img class border  
-          className='img-fluid border-start border-bottom border-warning'   style={{width: "80%",maxWidth:'600px', height: "auto", borderRadius: "2%",
+          className='img-fluid border-start border-bottom border-warning'   style={{width: "80%",maxWidth:'550px', height: "auto", borderRadius: "2%",
            
           }}
         ></img>
 
-        <div className='text-start w-50  pt-5'>
+        <div className='text-start w-50 ms-5 pt-5'>
 
-          <h1 className='text-light pt-4'>Hi There! I'm Abdelhakim Outass</h1>
+          <h1 className='text-light '>Hi There! I'm Abdelhakim Outass</h1>
           <h5 className='text-warning py-2'>Front-end Devloper</h5>
           <p className='w-75 text-justify'>A passionate web developer with experience in creating dynamic and responsive websites. I specialize in front-end development and have a keen eye for design and user experience. My goal is to build websites that not only look great but also perform well across all devices.</p>
 

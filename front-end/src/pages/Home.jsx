@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link, } from 'react-router-dom';
 import TopProject from '../components/TopProject';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -12,12 +14,39 @@ function Home() {
        
 
         <div className='p-5' >
-          <p>Hello, I'm
+          <p className='fs-4'>Hello, I'm
           <span className='d-block text-light fs-1 fw-bolder'>ABDELHAKIM <br/> OUTASS </span>
           Software Developer
           </p>
 
-          <button className='btn btn-outline-warning px-4 py-2 fw-bold me-3 my-3 rounded-pill custom-btn'>
+          {/* stytim of icons in same lign ...
+            
+               */}
+          <ul className='d-flex text-center  '>
+              
+                <a href="https://github.com/Abdelhakimeee" target='_blank' rel='noopener noreferrer'>
+                   <FontAwesomeIcon icon={faGithub} className='text-warning fs-4 p-4 ps-0'/>
+                </a>
+             
+                <a href="https://www.linkedin.com/in/abdelhakim-outass-5b2b75284" target='_blank' rel='noopener noreferrer'>
+                   <FontAwesomeIcon icon={faLinkedin} className='text-warning fs-4 p-4'/>
+                </a>
+              
+            
+              
+                <a href="https://www.instagram.com/outass1/" target='_blank' rel='noopener noreferrer'>
+                  <FontAwesomeIcon icon={faInstagram} className='text-warning fs-4 p-4'/>
+                </a>
+              
+            
+             
+                <a href="https://web.facebook.com/people/%D8%B1%D9%88%D8%A7%D9%82-%D9%86%D9%88%D8%B1%D8%A9/61582447383574/" target='_blank' rel='noopener noreferrer'>
+                  <FontAwesomeIcon icon={faFacebook} className='text-warning fs-4 p-4'/>
+                </a>
+           
+          </ul>
+
+          <button className='btn btn-outline-warning px-5 py-2 fw-bold me-3  rounded-pill custom-btn'>
             Hire Me
           </button>
           <button className='btn btn-outline-warning px-4 py-2 fw-semibold rounded-pill custom-btn'>
@@ -35,7 +64,8 @@ function Home() {
       </div>
 
           {/* 2  top 5 project  # example projext top 5 --- */}
-          {/* <TopProject /> */}
+      {/* <TopProject /> */}
+      
       
 
 

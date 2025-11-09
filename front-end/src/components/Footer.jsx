@@ -2,16 +2,16 @@ import React from 'react'
 import { Link, } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
 function Footer() {
   return (
     <footer className='m-0 p-0 w-100'>
 
-      <div className='bg-secondary '>
+      <div >
 
-        <div className='bg-mate shadow-sm  p-5 mx-4 my-5 rounded-bottom border-top border-secondary text-center'>
+        <div className='bg-mate  p-5  rounded-bottom border-top border-secondary text-center'>
 
           <p className='text-light fs-5'>Have a project in mind
             <span className='d-block fs-1 fw-bolder text-purple'>Let me help you</span>
@@ -87,36 +87,36 @@ function Footer() {
 
             <ul className='nav d-block border-start border-warning ps-3 '>
               <li><p className='fs-4 fw-bolder fw-bold'>Social Links</p></li>
+            
+              <li>  
+                <a href="https://github.com/Abdelhakimeee" target='_blank' rel='noopener noreferrer'>
+                  <FontAwesomeIcon icon={faGithub} className='text-purple fs-4 me-2'/>
+                </a>
+              </li>
 
               <li>
-                {/* to-do    add likes of social media
-                 */}
                 <a href="https://www.linkedin.com/in/abdelhakim-outass-5b2b75284" target='_blank' rel='noopener noreferrer'>
                   <FontAwesomeIcon icon={faLinkedin} className='text-purple fs-4 me-2'/>
                 </a>
               </li>
 
               <li>
-                {/* to-do   add likes of social media
-                 */}
                 <a href="https://www.instagram.com/outass1/" target='_blank' rel='noopener noreferrer'>
                   <FontAwesomeIcon icon={faInstagram} className='text-purple fs-4 me-2'/>
-                </a></li>
+                </a>
+              </li>
 
-              <li>
-                {/* to-do    add likes of social media
-                 */}
+              <li>  
                 <a href="https://web.facebook.com/people/%D8%B1%D9%88%D8%A7%D9%82-%D9%86%D9%88%D8%B1%D8%A9/61582447383574/" target='_blank' rel='noopener noreferrer'>
                   <FontAwesomeIcon icon={faFacebook} className='text-purple fs-4 me-2'/>
-                </a></li>
+                </a>
+              </li>
+            
 
             </ul>
-          
-
-
 
         </div>
-        <p className='py-1 px-5 m-0 text-light '>@ Abdelhakim Outass | React Developer</p>
+        <p className='py-1 px-5 m-0 text-light bg-dark '>@ Abdelhakim Outass | React Developer</p>
 
       </div>
     </footer>
