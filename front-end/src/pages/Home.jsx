@@ -35,7 +35,7 @@ function Home() {
       </div>
 
           {/* 2  top 5 project  # example projext top 5 --- */}
-          <TopProject />
+          {/* <TopProject /> */}
       
 
 
