@@ -1,3 +1,5 @@
+// Add my experience in sellse (seller , getion , cloth ...  )  in About.jsx
+
 //  todo : front-end/src/pages/Home.scss     
 // todo : make a media query for the home page  to make it responsive 
 // todo : try to style page less than 800  with media query 
@@ -19,6 +21,7 @@ import Footer from './components/Footer';
 
 // dd
 import TopProject from './components/TopProject'; 
+import Skiles from './components/Skiles';
 // dd
 
 
@@ -37,6 +40,7 @@ function App() {
           
           {/* dd */}
           <Route path='/TopProject' element={<TopProject />} /> 
+          <Route path='/Skiles' element={<Skiles />} />
 
           {/* <Route .... */}
 

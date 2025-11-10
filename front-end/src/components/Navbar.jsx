@@ -8,7 +8,7 @@ import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
 function Navbar() {
   return (
      <nav className='p-3'>
-        <div className='container d-flex justify-content-between align-items-center bg-mate text-purple'>
+        <div className='container d-flex justify-content-between align-items-center bg-mate text-purple '>
 
          <img src="/logo.png" alt="logo image"
          className='ms-5 img-fluid' style={{ width: "80px", height: "80px", borderRadius: '50%'}}

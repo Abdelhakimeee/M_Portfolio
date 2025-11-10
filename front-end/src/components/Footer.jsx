@@ -11,13 +11,13 @@ function Footer() {
 
       <div >
 
-        <div className='bg-mate  p-5  rounded-bottom border-top border-secondary text-center'>
+        <div className='bg-mate p-5 rounded-bottom border-top border-secondary text-center'>
 
           <p className='text-light fs-5'>Have a project in mind
-            <span className='d-block fs-1 fw-bolder text-purple'>Let me help you</span>
+            <span className='d-block fs-1 fw-bolder text-purple my-2'>Let me help you</span>
           </p>
 
-          <button className='btn btn-light px-4 py-2 rounded-pill'
+          <button className='btn btn-light px-4 py-2  rounded-pill'
           onClick={()=>
             window.open('https://api.whatsapp.com/send?phone=212772326384', '_blank')
           }
@@ -25,9 +25,9 @@ function Footer() {
 
         </div>
 
-      <div className='m-0 pt-5 p-2 text-center bg-mate'>
-        <p>
-            <span className='pb-4 d-block fs-4 fw-bold text-center '>Abdelhakim Outass</span>
+      <div className='text-center bg-mate'>
+        <p className='fs-5 '>
+            <span className='pb-4 d-block fs-3 fw-bold text-center my-3'>Abdelhakim Outass</span>
             A freelance web designer and developer make websites that have unique designs and also has a good performance rate.
           </p>
       </div>
@@ -85,7 +85,7 @@ function Footer() {
               </li>
             </ul>
 
-            <ul className='nav d-block border-start border-warning ps-3 '>
+            <ul className='nav d-block border-start  ps-3 '>
               <li><p className='fs-4 fw-bolder fw-bold'>Social Links</p></li>
             
               <li>  

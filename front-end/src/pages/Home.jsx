@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, } from 'react-router-dom';
 import TopProject from '../components/TopProject';
+import Skiles from '../components/Skiles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
@@ -56,7 +57,7 @@ function Home() {
 
 
         <img src='/homeimg.jpg' alt="home img"   
-          className='img-fluid border-end border-bottom border-warning'   style={{width: "80%",maxWidth:'500px', height: "auto", borderRadius: "2%",
+          className='img-fluid border-end border-bottom border-warning'   style={{width: "80%",maxWidth:'450px', height: "auto", borderRadius: "2%",
            
           }}
         ></img>
@@ -65,6 +66,7 @@ function Home() {
 
           {/* 2  top 5 project  # example projext top 5 --- */}
       {/* <TopProject /> */}
+      <Skiles />
       
       
 

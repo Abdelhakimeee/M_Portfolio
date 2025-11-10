@@ -1,4 +1,5 @@
 import React from 'react'
+import Skiles from '../components/Skiles';
 
 function About() {
   return (
@@ -6,10 +7,8 @@ function About() {
       <h4 className='text-warning border-bottom border-warning w-25 mx-auto'>About Me</h4>
 
     <div className='d-flex justify-content-evenly  align-items-start mt-5' >
-      <img src='/homeimg.jpg' alt="home img"  // warning in img class border  
-          className='img-fluid border-start border-bottom border-warning'   style={{width: "80%",maxWidth:'550px', height: "auto", borderRadius: "2%",
-           
-          }}
+      <img src='/IMG_2165.JPG' alt="about img"  // warning in img class border  
+          className='img-fluid border-start border-bottom border-warning'   style={{width: "80%",maxWidth:'450px', height: "auto", borderRadius: "2%",  }}
         ></img>
 
         <div className='text-start w-50 ms-5 pt-5'>
@@ -21,7 +20,7 @@ function About() {
           <ul className='list-unstyled mx-auto mt-4'>
             <li className='mb-2'><span className='text-warning fw-bold ' style={{display:'inline-block', width:'120px'}}>Birthday</span>: Apr 19, 2002</li>
             <li className='mb-2'><span className='text-warning fw-bold ' style={{display:'inline-block', width:'120px'}}>Phone</span>: +212 772326384</li>
-            <li className='mb-2'><span className='text-warning fw-bold ' style={{display:'inline-block', width:'120px'}}>City</span>: CAsaBlanca, Morocco</li>
+            <li className='mb-2'><span className='text-warning fw-bold ' style={{display:'inline-block', width:'120px'}}>City</span>: CasaBlanca, Morocco</li>
             <li className='mb-2'><span className='text-warning fw-bold ' style={{display:'inline-block', width:'120px'}}>Language</span>: Arabic, English, French</li>
             <li className='mb-2'><span className='text-warning fw-bold ' style={{display:'inline-block', width:'120px'}}>Email</span>: outasabdelhakim@gmail.com</li>
             <li className='mb-2'><span className='text-warning fw-bold ' style={{display:'inline-block', width:'120px'}}>Freelance</span>: Available</li>
@@ -32,7 +31,9 @@ function About() {
         </div>
 
 
-    </div>
+      </div>
+      <Skiles />
+      
         
     
     </div>
