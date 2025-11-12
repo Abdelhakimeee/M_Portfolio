@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
-// import { faFacebook, faTelegram } from '@fortawesome/free-brands-svg-icons';
+import { faWhatsapp, } from '@fortawesome/free-brands-svg-icons';
 
 
 function Navbar() {
@@ -36,16 +36,17 @@ function Navbar() {
                   target='_blank'
                   rel='nooper noreferrer'
                   className='text-decoration-none text-purple fw-bold '
-                  >
+                    >
+                       <FontAwesomeIcon icon={faWhatsapp} className='me-2' />
                      CONTACT
                   </a>
                </li> 
 
-               <li className='px-5'>
+               <li className='px-4'>
                   <a href="tel:+212640610072" 
-         className='text-decoration-none text-purple d-flex align-items-center gap-3'>
-            <FontAwesomeIcon icon={faPhoneVolume} />
-            <strong>+212 640610072</strong>
+         className='text-decoration-none text-purple '>
+            <FontAwesomeIcon icon={faPhoneVolume} className='me-2' />
+            +212 640610072
          </a>
                </li>
 
