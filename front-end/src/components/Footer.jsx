@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faLinkedin, faGithub, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
 
 
 function Footer() {
@@ -14,20 +14,20 @@ function Footer() {
         <div className='bg-mate p-5 rounded-bottom border-top border-secondary text-center'>
 
           <p className='text-light fs-5'>Have a project in mind
-            <span className='d-block fs-1 fw-bolder text-purple my-2'>Let me help you</span>
+            <span className='d-block fs-1 fw-bolder text-purple my-2' style={{fontFamily:'FreeMono'}}>Let me help you</span>
           </p>
 
           <button className='btn btn-light px-4 py-2  rounded-pill'
           onClick={()=>
-            window.open('https://api.whatsapp.com/send?phone=212772326384', '_blank')
+            window.open('https://api.whatsapp.com/send?phone=212640610072', '_blank')
           }
           >Contact Me</button>
 
         </div>
 
       <div className='text-center bg-mate'>
-        <p className='fs-5 '>
-            <span className='pb-4 d-block fs-3 fw-bold text-center my-3'>Abdelhakim Outass</span>
+        <p className='fs-5 fw-bold '>
+            <span className='pb-4 d-block fs-1 fw-bold text-center text-warning my-3'>Abdelhakim Outass</span>
             A freelance web designer and developer make websites that have unique designs and also has a good performance rate.
           </p>
       </div>
@@ -60,20 +60,21 @@ function Footer() {
               <li><p className='fs-4 fw-bolder fw-bold'>Contact Info</p></li>
               
               <li className='nav-item'>
-                  <a href='https://api.whatsapp.com/send?phone=212772326384'
+                  <a href='https://api.whatsapp.com/send?phone=212640610072'
                   target='_blank'
                   rel='nooper noreferrer'
                   className='text-decoration-none text-purple fw-bold '
                   >
+                <FontAwesomeIcon icon={faWhatsapp} className='me-2'/>
                      CONTACT
-                  </a>
+              </a>
                </li> 
 
               <li className='py-1'>
-                  <a href="tel:+212772326384" 
-         className='text-decoration-none text-purple d-flex align-items-center gap-1'>
-            <FontAwesomeIcon icon={faPhoneVolume} />
-            <strong>+212 772326384</strong>
+                  <a href="tel:+212640610072" 
+         className='text-decoration-none text-purple '>
+            <FontAwesomeIcon icon={faPhoneVolume} className='me-2'/>
+            +212 640610072
          </a>
                </li>
 
@@ -85,7 +86,7 @@ function Footer() {
               </li>
             </ul>
 
-            <ul className='nav d-block border-start  ps-3 '>
+            <ul className='nav d-block border-start border-warning ps-3 '>
               <li><p className='fs-4 fw-bolder fw-bold'>Social Links</p></li>
             
               <li>  

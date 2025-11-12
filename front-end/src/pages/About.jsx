@@ -19,7 +19,7 @@ function About() {
 
           <ul className='list-unstyled mx-auto mt-4'>
             <li className='mb-2'><span className='text-warning fw-bold ' style={{display:'inline-block', width:'120px'}}>Birthday</span>: Apr 19, 2002</li>
-            <li className='mb-2'><span className='text-warning fw-bold ' style={{display:'inline-block', width:'120px'}}>Phone</span>: +212 772326384</li>
+            <li className='mb-2'><span className='text-warning fw-bold ' style={{display:'inline-block', width:'120px'}}>Phone</span>: +212 640610072</li>
             <li className='mb-2'><span className='text-warning fw-bold ' style={{display:'inline-block', width:'120px'}}>City</span>: CasaBlanca, Morocco</li>
             <li className='mb-2'><span className='text-warning fw-bold ' style={{display:'inline-block', width:'120px'}}>Language</span>: Arabic, English, French</li>
             <li className='mb-2'><span className='text-warning fw-bold ' style={{display:'inline-block', width:'120px'}}>Email</span>: outasabdelhakim@gmail.com</li>

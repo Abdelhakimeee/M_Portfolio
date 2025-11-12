@@ -7,11 +7,11 @@ import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
 
 function Navbar() {
   return (
-     <nav className='p-3'>
-        <div className='container d-flex justify-content-between align-items-center bg-mate text-purple '>
+     <nav className='p-3 '>
+        <div className='mt-2 container d-flex justify-content-between align-items-center bg-mate text-purple '>
 
          <img src="/logo.png" alt="logo image"
-         className='ms-5 img-fluid' style={{ width: "80px", height: "80px", borderRadius: '50%'}}
+         className='ms-5 img-fluid' style={{ width: "100px", height: "100px", borderRadius: '50%'}}
          ></img>
 
          <div className="align-items-center shadow-sm ">
@@ -32,7 +32,7 @@ function Navbar() {
                </li>
 
                <li className='nav-item px-4'>
-                  <a href='https://api.whatsapp.com/send?phone=212772326384'
+                  <a href='https://api.whatsapp.com/send?phone=212640610072'
                   target='_blank'
                   rel='nooper noreferrer'
                   className='text-decoration-none text-purple fw-bold '
@@ -42,10 +42,10 @@ function Navbar() {
                </li> 
 
                <li className='px-5'>
-                  <a href="tel:+212772326384" 
+                  <a href="tel:+212640610072" 
          className='text-decoration-none text-purple d-flex align-items-center gap-3'>
             <FontAwesomeIcon icon={faPhoneVolume} />
-            <strong>+212 772326384</strong>
+            <strong>+212 640610072</strong>
          </a>
                </li>
 

@@ -27,7 +27,7 @@ import Skiles from './components/Skiles';
 
 function App() {
   return (
-    <div className="App bg-mate text-purple mb-0 pb-0">
+    <div className="App bg-mate text-purple mb-0 pb-0" style={{fontFamily:'fangsong'}}>
       <BrowserRouter>
         <Navbar />
 
