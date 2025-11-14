@@ -52,11 +52,9 @@ function Home() {
           </ul>
 
           <button className='btn btn-outline-warning px-5 py-2 fw-bold mx-4  rounded-pill custom-btn'>
-{/* 
-             // styling in class name if i need it
-              // <Link to="/" className='text-decoration-none text-purple fw-bold'>HOME</Link> */}
+
             <Link to="/Contact"
-              className="btn btn-warning"
+              className="text-decoration-none text-warning fw-bold"
             >Hire Me</Link>
           </button>
           <button className='btn btn-outline-warning px-4 py-2 fw-semibold rounded-pill custom-btn'>
