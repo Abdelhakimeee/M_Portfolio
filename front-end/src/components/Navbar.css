@@ -1,0 +1,25 @@
+/* Small screen styles */
+@media (max-width: 768px) {
+  .nav-item a, .nav a {
+    color: #9b59b6 !important; /* بنفسجي هادئ */
+    font-size: 1rem;           /* حجم مناسب للقراءة */
+    padding: 10px 0;           /* مسافة بين العناصر */
+    display: block;            /* كل عنصر في سطر */
+    text-align: center;        /* توسيط النص */
+  }
+
+  .nav-item a:hover, .nav a:hover {
+    color: #7d3c98 !important; /* بنفسجي أغمق عند المرور */
+    text-decoration: underline;
+  }
+
+  .nav {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .align-items-center {
+    padding: 15px;
+  }
+}

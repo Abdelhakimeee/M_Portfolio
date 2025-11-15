@@ -4,6 +4,11 @@
 .bg-mate {
   background-color: #0F0F0F;
 }
+.navbar-toggler {
+  color: #9b59b6; /* لون الأيقونة في بعض themes */
+  background-color: #9b59b6;
+}
+
 
 /*text decoration */
 .text-justify {

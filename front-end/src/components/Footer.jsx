@@ -25,19 +25,18 @@ function Footer() {
 
         </div>
 
-      <div className='text-center bg-mate'>
+      <div className='text-center bg-mate p-5 pt-3 '>
         <p className='fs-5 fw-bold '>
-            <span className='pb-4 d-block fs-1 fw-bold text-center text-warning my-3'>Abdelhakim Outass</span>
+            <span className='pb-4 d-block fs-1 fw-bold text-center text-warning my-3 '>Abdelhakim Outass</span>
             A freelance web designer and developer make websites that have unique designs and also has a good performance rate.
           </p>
       </div>
                         
-
-        <div className='bg-mate  p-5 pt-3 m-0 d-flex justify-content-around align-items-center'>
+        <div className='bg-mate p-5 pt-3 m-0 d-flex flex-column flex-md-row justify-content-around align-items-start gap-4'>
 
             <ul className='nav d-block border-start border-warning ps-3 '>
               
-              <li><p className='fs-4 fw-bolder fw-bold '>Important Links</p></li>
+              <li><p className='fs-4 fw-bolder fw-bold text-light '>Important Links</p></li>
 
                <li className='nav-item pb-1'>
                   <Link to="/" className='text-decoration-none text-purple fw-bold'>HOME</Link>
@@ -57,7 +56,7 @@ function Footer() {
 
             <ul className='nav d-block border-start border-warning ps-3 '>
 
-              <li><p className='fs-4 fw-bolder fw-bold'>Contact Info</p></li>
+              <li><p className='fs-4 fw-bolder fw-bold text-light'>Contact Info</p></li>
               
               <li className='nav-item'>
                   <a href='https://api.whatsapp.com/send?phone=212640610072'
@@ -87,7 +86,7 @@ function Footer() {
             </ul>
 
             <ul className='nav d-block border-start border-warning ps-3 '>
-              <li><p className='fs-4 fw-bolder fw-bold'>Social Links</p></li>
+              <li><p className='fs-4 fw-bolder fw-bold text-light'>Social Links</p></li>
             
               <li>  
                 <a href="https://github.com/Abdelhakimeee" target='_blank' rel='noopener noreferrer'>
@@ -117,7 +116,7 @@ function Footer() {
             </ul>
 
         </div>
-        <p className='py-1 px-5 m-0 text-light bg-dark '>@ Abdelhakim Outass | React Developer</p>
+        <p className='py-1 px-5 m-0 w-100 text-light bg-dark small text-start'>@ Abdelhakim Outass | React Developer</p>
 
       </div>
     </footer>

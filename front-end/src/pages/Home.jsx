@@ -11,10 +11,11 @@ function Home() {
   return (
     <div className='bg-mate '>
       
-      <div className='user-home d-flex justify-content-around align-items-center flex-lg-nowrap  py-5 '>   
+      <div className='user-home d-flex flex-column flex-lg-row justify-content-around align-items-center py-5 ' >   
        
+        
 
-        <div className='p-5 ' >
+        <div className='p-3 text-center text-lg-start' >
           <p className='fs-4'>Hello, I'm
           <span className='d-block text-light fs-1 fw-bolder'>ABDELHAKIM <br/> OUTASS </span>
           Software Developer
@@ -50,21 +51,20 @@ function Home() {
                 </a>
            
           </ul>
+          
+          <Link to="/Contact" className="btn btn-outline-warning px-5 py-2  fw-bold rounded-pill custom-btn text-warning text-decoration-none">
+            Hire Me
+          </Link>
 
-          <button className='btn btn-outline-warning px-5 py-2 fw-bold mx-4  rounded-pill custom-btn'>
+          <Link to="/Projects" className="btn btn-outline-warning px-4 py-2 ms-3 fw-semibold rounded-pill custom-btn text-warning text-decoration-none">
+            See My Projects
+          </Link>
 
-            <Link to="/Contact"
-              className="text-decoration-none text-warning fw-bold"
-            >Hire Me</Link>
-          </button>
-          <button className='btn btn-outline-warning px-4 py-2 fw-semibold rounded-pill custom-btn'>
-            <Link to="/Projects" className='text-decoration-none text-warning fw-bold'>See My Projects</Link>
-          </button>
         </div>
 
 
         <img src='/homeimg.jpg' alt="home img"   
-          className='img-fluid border-end border-bottom border-warning'   style={{width: "80%",maxWidth:'450px', height: "auto", borderRadius: "2%", }}
+          className='img-fluid border-end border-bottom border-warning mt-4 mt-lg-0'   style={{width: "80%",maxWidth:'450px', height: "auto", borderRadius: "2%", }}
         ></img>
 
       </div>
