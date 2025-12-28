@@ -3,7 +3,10 @@ import { Link, } from 'react-router-dom';
 import TopProject from '../components/TopProject';
 import Skiles from '../components/Skiles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faGithub, faInstagram, faLinkedin, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
+import {
+  // faFacebook, faInstagram,
+  faGithub, faLinkedin, faWhatsapp
+} from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -36,15 +39,14 @@ function Home() {
               
             
               
-                <a href="https://www.instagram.com/outass1/" target='_blank' rel='noopener noreferrer'>
+                {/* <a href="https://www.instagram.com/outass1/" target='_blank' rel='noopener noreferrer'>
                   <FontAwesomeIcon icon={faInstagram} className='text-warning fs-3 py-4 px-3'/>
-                </a>
+                </a> */}
               
-            
              
-                <a href="https://web.facebook.com/people/%D8%B1%D9%88%D8%A7%D9%82-%D9%86%D9%88%D8%B1%D8%A9/61582447383574/" target='_blank' rel='noopener noreferrer'>
+                {/* <a href="https://web.facebook.com/people/%D8%B1%D9%88%D8%A7%D9%82-%D9%86%D9%88%D8%B1%D8%A9/61582447383574/" target='_blank' rel='noopener noreferrer'>
                   <FontAwesomeIcon icon={faFacebook} className='text-warning fs-3 py-4 px-3'/>
-                </a>
+                </a> */}
                 
                 <a href="https://api.whatsapp.com/send?phone=212640610072" target='_blank' rel='noopener noreferrer'>
                    <FontAwesomeIcon icon={faWhatsapp} className='text-warning fs-3 py-4 px-3 '/>
@@ -70,8 +72,8 @@ function Home() {
       </div>
 
           {/* 2  top 5 project  # example projext top 5 --- */}
-      {/* <TopProject /> */}
-      <Skiles />
+      <TopProject />
+      {/* <Skiles /> */}
       
       
 

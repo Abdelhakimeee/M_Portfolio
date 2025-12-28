@@ -2,7 +2,10 @@ import React from 'react'
 import { Link, } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faInstagram, faLinkedin, faGithub, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
+import {
+  // faFacebook, faInstagram,
+  faLinkedin, faGithub, faWhatsapp
+} from '@fortawesome/free-brands-svg-icons';
 
 
 function Footer() {
@@ -28,7 +31,7 @@ function Footer() {
       <div className='text-center bg-mate p-5 pt-3 '>
         <p className='fs-5 fw-bold '>
             <span className='pb-4 d-block fs-1 fw-bold text-center text-warning my-3 '>Abdelhakim Outass</span>
-            A freelance web designer and developer make websites that have unique designs and also has a good performance rate.
+            A web designer and developer make websites that have unique designs and also has a good performance rate.
           </p>
       </div>
                         
@@ -100,17 +103,17 @@ function Footer() {
                 </a>
               </li>
 
-              <li>
+              {/* <li>
                 <a href="https://www.instagram.com/outass1/" target='_blank' rel='noopener noreferrer'>
                   <FontAwesomeIcon icon={faInstagram} className='text-purple fs-4 me-2'/>
                 </a>
-              </li>
+              </li> */}
 
-              <li>  
+              {/* <li>  
                 <a href="https://web.facebook.com/people/%D8%B1%D9%88%D8%A7%D9%82-%D9%86%D9%88%D8%B1%D8%A9/61582447383574/" target='_blank' rel='noopener noreferrer'>
                   <FontAwesomeIcon icon={faFacebook} className='text-purple fs-4 me-2'/>
                 </a>
-              </li>
+              </li> */}
             
 
             </ul>

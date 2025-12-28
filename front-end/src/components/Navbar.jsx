@@ -2,14 +2,13 @@ import React from 'react';
 import { Link, } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
-import { faWhatsapp, } from '@fortawesome/free-brands-svg-icons';
-// import './Navbar.css';
+// import { faWhatsapp, } from '@fortawesome/free-brands-svg-icons';
 
 
 function Navbar() {
   return (
-     <nav className='navbar navbar-expand-lg p-3 '>
-        <div className='container'>
+     <nav className='navbar navbar-expand-lg p-3   bg-warning '>
+        <div className='container '>
 
          <a href="/" className='navbar-brand'>
            <img src="/logo.png" alt="logo"
@@ -19,7 +18,7 @@ function Navbar() {
 
            {/* Toggle button للشاشات الصغيرة */}
            <button
-      className="navbar-toggler bg-secondary rounded-circle me-5 "
+      className="navbar-toggler bg-secondary rounded-circle mx-5 "
       type="button"
       data-bs-toggle="collapse"
       data-bs-target="#navMenu"
@@ -34,32 +33,23 @@ function Navbar() {
          <div className="collapse d-lg-none " id="navMenu" >
             <ul className='navbar-nav ms-auto '>
 
-               <li className='nav-item px-4'>
+               <li className='nav-item px-1 pt-2 b'>
                   <Link to="/" className='text-decoration-none text-purple fw-bold'>HOME</Link>
                </li>
 
-               
-
-               <li className='nav-item px-4'>
-                  <Link to="/Projects" className='text-decoration-none text-purple fw-bold'>Projects</Link>
-               </li>
-
-               <li className='nav-item px-4'>
+               <li className='nav-item px-1'>
                   <Link to="/About" className='text-decoration-none text-purple fw-bold'>ABOUT</Link>
                </li>
 
-               <li className='nav-item px-4'>
-                  <a href='https://api.whatsapp.com/send?phone=212640610072'
-                  target='_blank'
-                  rel='nooper noreferrer'
-                  className='text-decoration-none text-purple fw-bold '
-                    >
-                       <FontAwesomeIcon icon={faWhatsapp} className='me-2' />
-                     CONTACT
-                  </a>
-               </li> 
+               <li className='nav-item px-1'>
+                  <Link to="/Projects" className='text-decoration-none text-purple fw-bold'>Projects</Link>
+               </li>
 
-               <li className='px-4 me-5'>
+               <li className='nav-item px-1'>
+                  <Link to="/Contact" className='text-decoration-none text-purple fw-bold'>CONTACT</Link>
+               </li>
+
+               <li className='px-1 '>
                   <a href="tel:+212640610072" 
          className='text-decoration-none text-purple '>
             <FontAwesomeIcon icon={faPhoneVolume} className='me-2' />
@@ -78,26 +68,17 @@ function Navbar() {
                   <Link to="/" className='text-decoration-none text-purple fw-bold'>HOME</Link>
                </li>
 
-               
-
-               <li className='nav-item px-4'>
-                  <Link to="/Projects" className='text-decoration-none text-purple fw-bold'>Projects</Link>
-               </li>
-
-               <li className='nav-item px-4'>
+                <li className='nav-item px-4'>
                   <Link to="/About" className='text-decoration-none text-purple fw-bold'>ABOUT</Link>
                </li>
 
                <li className='nav-item px-4'>
-                  <a href='https://api.whatsapp.com/send?phone=212640610072'
-                  target='_blank'
-                  rel='nooper noreferrer'
-                  className='text-decoration-none text-purple fw-bold '
-                    >
-                       <FontAwesomeIcon icon={faWhatsapp} className='me-2' />
-                     CONTACT
-                  </a>
-               </li> 
+                  <Link to="/Projects" className='text-decoration-none text-purple fw-bold'>Projects</Link>
+               </li>
+                 
+               <li className='nav-item px-4'>
+                  <Link to="/Contact" className='text-decoration-none text-purple fw-bold'>CONTACT</Link>
+               </li>
 
                <li className='px-4 me-5'>
                   <a href="tel:+212640610072" 

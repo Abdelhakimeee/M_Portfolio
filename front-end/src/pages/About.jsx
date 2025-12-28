@@ -24,7 +24,7 @@ function About() {
             <li className='mb-2'><span className='text-warning fw-bold ' style={{display:'inline-block', width:'120px'}}>City</span>: CasaBlanca, Morocco</li>
             <li className='mb-2'><span className='text-warning fw-bold ' style={{display:'inline-block', width:'120px'}}>Language</span>: Arabic, English, French</li>
             <li className='mb-2'><span className='text-warning fw-bold ' style={{display:'inline-block', width:'120px'}}>Email</span>: outasabdelhakim@gmail.com</li>
-            <li className='mb-2'><span className='text-warning fw-bold ' style={{display:'inline-block', width:'120px'}}>Freelance</span>: Available</li>
+            <li className='mb-2'><span className='text-warning fw-bold ' style={{display:'inline-block', width:'120px'}}>Availability</span>: Open to work (Full-time / Freelance)</li>
 
           </ul>
         

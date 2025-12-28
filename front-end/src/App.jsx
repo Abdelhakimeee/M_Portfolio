@@ -1,13 +1,15 @@
-// Add my experience in sellse (seller , getion , cloth ...  )  in About.jsx
+//  To Do: 
+// Add my experience in sellse(seller, getion, cloth ...  ) in About.jsx
 
 //  todo : front-end/src/pages/Home.scss     
 // todo : make a media query for the home page  to make it responsive 
 // todo : try to style page less than 800  with media query 
 // 1 potho,  2 nave bar font size , 
-// in footer مسافة بين المحتوى  in @query  phon ... + add footer .scss
 // TopProjext 
 // Hire Me 
-// 
+// do the projects + add them in (project + behance + linked In + fb + inst ... )
+// tack vedios + تسريع قص + تسويق بالمحتوى  لمى تقوم به ...
+
 
 import React from 'react'
 import './App.css';
@@ -34,8 +36,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />  
           <Route path='/Home' element={<Home />} /> 
-          <Route path='/Contact' element={<Contact />} />  
           <Route path='/About' element={<About />} />  
+          <Route path='/Contact' element={<Contact />} />  
           <Route path='/Projects' element={<Projects />} /> 
           
           {/* dd */}
