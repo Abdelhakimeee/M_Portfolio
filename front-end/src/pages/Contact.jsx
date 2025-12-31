@@ -64,8 +64,8 @@ function Contact() {
             />
             
             <div className='text-center pt-5 '>
-              <button type="submit" disabled={state.submitting} className='btn btn-outline-warning w-25 px-4 py-2 fw-semibold rounded-pill'>
-              Send
+              <button type="submit" disabled={state.submitting} className='btn btn-outline-warning w-50 px-4 py-2 fw-semibold rounded-pill'>
+              Submit
             </button>
 
             </div>
