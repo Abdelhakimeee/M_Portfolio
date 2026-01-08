@@ -65,7 +65,7 @@ function Home() {
         </div>
 
 
-        <img src='/homeimg.jpg' alt="home img"   
+        <img src='/homeimg.png' alt="home img"   
           className='img-fluid border-end border-bottom border-warning mt-4 mt-lg-0'   style={{width: "80%",maxWidth:'450px', height: "auto", borderRadius: "2%", }}
         ></img>
 
